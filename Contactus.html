@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ContactUs.css">
+    
+    <script src="ContactUs.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="background">
+       
+            <div class="navigationBar">
+            <img src="./images/logoheader.png" alt=""> 
+             <a href="Eramen.html"> Home</a>  
+            <a href="Products.html">Products</a>
+            <a href="Promotions.html">Promotions</a>
+            <a href="AboutUs.html">About Us</a> 
+            <a class="active" href="Contactus.html">Contact Us</a>
+            </div>
+        <div class="Main"> 
+            <h3>Please take a moment to fill in the contact form below. <br> Your provided information helps us understand your needs and preferences.</h3>
+    <p></p>
+        </div>
+            <div class="Contain">
+                <div class="square">
+                
+                     <div class="Form">
+                        <form onsubmit="val()">
+                    <label for="fullName">Full Name:</label>
+                    <input style="width: 100%;" type="text" id="fullName" name="fullName" placeholder="" required>
+                     <br>
+                    <label for="email">Email:</label>
+                    <input style="width: 100%;" type="text" id="email" name="email" placeholder="" required>
+                    <br>
+                    <label for="PhoneNumber">Phone Number:</label>
+                    <input style="width: 100%;" type="text" id="PhoneNumber" name="PhoneNumber" placeholder=""required>
+                    <br>
+                    <label for="Pref">Preference:</label>
+                    <select name="pref" id="Pref">
+                        <option value="" disabled selected>Select an option</option>
+                        <OPTION value="Ramen">Ramen</OPTION>
+                        <OPTION value="DryRamen">Dry Ramen</OPTION>
+
+                    </select>
+                    <br>
+                <label for="news">
+                    <input type="checkbox" id=newsletter required> I have agree to receive newsletter.
+                </label>
+               <br>
+               
+                <button type="submit">Submit</button>
+              </form>
+              
+                        </div>
+                </div>
+            </div>
+
+            </div>
+
+
+            <div class="Footer">
+                <div class="Follow"> <h3>Follow Us </h3></div>
+               <div class="socmed">
+                <a href="https://www.instagram.com/jacqueline.season/">
+                <img src="./images/insta.png" alt="">
+                </a>
+        
+                <a href="https://open.spotify.com/user/21yn5lvt32fww5ppbqtrcgdpq?si=e0dc574457064ce7">
+                <img src="./images/tw.png" alt="">
+                </a>
+        
+                <a href="https://www.youtube.com/@TeamAvatar">
+                <img src="./images/YT.png" alt="">
+                </a>
+                <div class="Contact"> <a href="Contactus.html">Contact Us</a> </div>
+            
+        </div>
+        
+            </div>
+            <!-- <button class="MainButton">Start Slurping!</button> -->
+    
+     </div>   
+</body>
+</html>

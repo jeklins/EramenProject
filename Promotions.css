@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0; 
+    /* display: flex;  */
+
+}
+
+.background{
+    
+    width: 100%;
+    height: 100%;
+
+  background-color: #EED4A3;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+
+.Main{ 
+    display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding: 20px;
+    
+}
+.storeimg img{
+   width: 550px;
+  height: auto;
+  padding-right: 120px;
+}
+.storeimg{ 
+    flex: 1;
+    text-align: left;
+}
+
+.Main h1{
+    float: left;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 30px;
+    color: #cd483e;
+    padding-left: 105px;
+    padding-top: 25px;
+    padding-right: 15px;
+}
+.Main h3{
+    float: left;
+    /* padding-right: 650px; */
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 20px;
+    color: #cd483e;
+    padding-top: 45px;
+    padding-left: 100px;
+
+}
+
+.Main p{
+    float: left;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 25px;
+    color: #cd483e;
+    padding-top: 12px;
+    font-weight: bolder;
+    
+    padding-top: 45px;
+    padding-left: 100px;
+
+}
+.store a { 
+    opacity: .9;
+    text-align: right; 
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #e4673d9a;
+    font-family: 'Reem Kufi', sans-serif;
+    position: relative;
+    float:left;
+     padding-top: 53px;
+}
+.store a:hover {
+    /* background-color: #E4673D; */
+    color: #E4673D;
+    /* opacity: 1; */
+
+  }
+ 
+.MainButton {
+    top: 5px;
+    border: none;
+    color: white;
+    padding: 14px ;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #E4673D;
+    border-radius: 40%;
+    z-index: 1;
+    bottom: 90%;
+    object-position:  center  center;
+
+  }
+
+
+.navigationBar{
+
+    position: relative;
+    padding: 20px;
+    justify-content: right;
+    overflow: hidden;
+    /* width: 100%;
+    padding-left: 100%; */
+    float: right;
+    font-size: 20px;
+     opacity: 1;
+     color: #E4673D;
+     align-items: center center;
+
+}
+
+.navigationBar img{
+    display: flex;
+    position: relative;
+    /* kalo kegedean */
+    width:  200px;
+    height: auto;
+    /* padding-bottom: 45px; */
+    /* justify-content: center; */
+   float:left;
+   padding-right: 660px;
+    /* Logo */
+}
+.navigationBar a {
+    /* float: left; */
+     opacity: .8;
+    text-align: right; 
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #e4673d9a;
+    font-family: 'Reem Kufi', sans-serif;
+    position: relative;
+    float:left;
+     top: 18px;
+    /* left: 10px; */ 
+  }
+
+
+.navigationBar a:hover {
+    /* background-color: #E4673D; */
+    color: #E4673D;
+    /* opacity: 1; */
+
+  }
+
+.navigationBar a.active {
+    color: #cd483e;
+    opacity: 1;
+    text-decoration-line: bold;
+
+  }
+
+
+.ovo{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+.Kotak1{
+      width: 400px;
+      height: 265px;
+      background-color: #FFEAC3;
+      border-radius: 15px;
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+  }
+.Kotak1 h3{
+    display: flex;
+  padding: 20px;
+  color: #cd483e;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.Kotak1 img{
+    width: 120px;
+    height: auto;
+    padding-left: 50px;
+}
+
+.Footer{
+  width:auto;
+  height: 350px;
+  background-color:#E4673D ;
+  padding: 30px;
+  justify-content: center;
+}
+.Follow{   position: relative;
+padding-left: 15px;
+  overflow: hidden;
+  justify-content: center;
+  padding-top: 35px;
+}
+.Follow h3{
+  float: left;
+  padding-right: 30px;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 35px;
+  color:white;
+  
+  justify-content: center;
+}
+.socmed img{ 
+  padding-left: 15px;
+  width:  45px;
+  height: auto;
+  padding-right: 15px;
+  justify-content: center;
+
+}
+.Kotak1:hover{
+  display: flex;
+  flex-direction: row;
+  padding: 35px;
+  justify-content: space-evenly;
+  transition-duration: 1.5s;
+}
+
+.Contact{
+  padding-top: 15px;
+}
+.Contact a{ 
+  text-align: right; 
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  font-family: 'Reem Kufi', sans-serif;
+  position: relative;
+  float:left;
+
+}
+

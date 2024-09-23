@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0; 
+    /* display: flex;  */
+
+}
+
+.background{
+    
+    width: 100%;
+    height: 100%;
+
+  background-color: #EED4A3;
+
+}
+
+
+/* .MainButton {
+    top: 5px;
+    border: none;
+    color: white;
+    padding: 14px ;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #E4673D;
+    border-radius: 40%;
+    z-index: 1;
+    bottom: 90%;
+    object-position:  center  center;
+
+  } */
+
+/* } */
+
+.navigationBar{
+
+    position: relative;
+    padding: 20px;
+    justify-content: right;
+    overflow: hidden;
+    /* width: 100%;
+    padding-left: 100%; */
+    float: right;
+    font-size: 20px;
+     opacity: 1;
+     color: #E4673D;
+     align-items: center center;
+
+}
+
+.navigationBar img{
+    display: flex;
+    position: relative;
+    /* kalo kegedean */
+    width:  200px;
+    height: auto;
+    /* padding-bottom: 45px; */
+    /* justify-content: center; */
+   float:left;
+   padding-right: 660px;
+    /* Logo */
+}
+.navigationBar a {
+     opacity: .8;
+    text-align: right; 
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #e4673d9a;
+    font-family: 'Reem Kufi', sans-serif;
+    position: relative;
+    float:left;
+     top: 18px;
+  }
+
+
+.navigationBar a:hover {
+    color: #E4673D;
+
+  }
+
+.navigationBar a.active {
+    color: #cd483e;
+    opacity: 1;
+    text-decoration-line: bold;
+
+  }
+  .Main{
+    text-align: center;
+    padding-top: 45px;
+    font-family: 'Reem Kufi', sans-serif;
+    font: size 35px;;
+    color: #cd483e;
+    padding: 25px;
+  }
+
+.Menu{
+
+    position: relative;
+    padding: 20px;
+    justify-content: center;
+    overflow: hidden;
+    float: center;
+    font-size: 25px;
+     opacity: 1;
+     color: #E4673D;
+
+}
+
+.Menu a {
+    display: flex;
+     opacity: .8;
+    text-align: center; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: #e4673d9a;
+    font-family: 'Reem Kufi', sans-serif;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    text-align: center;
+    
+  }
+
+
+.Menu a:hover {
+    /* background-color: #E4673D; */
+    color: #E4673D;
+    /* opacity: 1; */
+
+  }
+
+.Menu a.active {
+    color: #cd483e;
+    opacity: 1;
+    text-decoration-line: bold;
+  }
+  
+.SpicyMala img{ 
+    position: relative;
+    width: auto;
+    height: 250px;
+}
+.SpicyMala{
+    position: relative;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+
+.SpicyMala h1{
+    /* float: left; */
+    padding-top: 20px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 45px;
+    color: #cd483e;
+}
+.SpicyMala p{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 25px;
+    color: #cd483e;
+    text-align:justify;
+    font-weight: 200;
+    float: left;
+    margin: 3px 70px;
+}
+
+.Spicyimg{
+    display: flex;
+    flex-direction: row;
+}
+
+.CTimg{
+    display: flex;
+    flex-direction: row;
+}
+.ClassicTon img{ 
+    position: relative;
+    width: auto;
+    height: 250px;
+}
+.ClassicTon{
+    position: relative;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+
+.ClassicTon h1{
+    padding-top: 20px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 45px;
+    color: #cd483e;
+}
+.ClassicTon p{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 25px;
+    color: #cd483e;
+    text-align:justify;
+    font-weight: 200;
+    margin: 3px 70px;
+}
+
+.ST{
+    display: flex;
+    flex-direction: row;
+}
+
+.SpecialTon img{ 
+    position: relative;
+    width: auto;
+    height: 250px;
+    /* padding-right: 250px; */
+}
+.SpecialTon{
+    position: relative;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+
+.SpecialTon h1{
+    padding-top: 20px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 45px;
+    color: #cd483e;
+}
+.SpecialTon p{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 25px;
+    color: #cd483e;
+    text-align:justify;
+    font-weight: 200;
+    margin: 3px 70px;
+}
+
+.SCR{
+    display: flex;
+    flex-direction: row;
+}
+.SpicyCreamy img{ 
+    position: relative;
+    width: auto;
+    height: 250px;
+}
+.SpicyCreamy{
+    position: relative;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-bottom: 150px;
+    overflow: hidden;}
+
+.SpicyCreamy h1{
+    padding-top: 20px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 45px;
+    color: #cd483e;
+}
+.SpicyCreamy p{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 25px;
+    color: #cd483e;
+    text-align:justify;
+    font-weight: 200;
+    margin: 3px 70px;
+}
+
+.GCR{
+    
+    display: flex;
+    flex-direction: row;
+
+}
+.GoldCurry img{ 
+    position: relative;
+    width: auto;
+    height: 250px;
+}
+.GoldCurry{
+    position: relative;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+
+.GoldCurry h1{
+    padding-top: 20px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 45px;
+    color: #cd483e;
+}
+
+.GoldCurry p{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 25px;
+    color: #cd483e;
+    text-align:justify;
+    font-weight: 200;
+    margin: 3px 70px;
+}
+
+.SR{
+    
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Shoyu img{ 
+    position: relative;
+    width: auto;
+    height: 250px;
+}
+.Shoyu{
+    position: relative;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+
+.Shoyu h1{
+    padding-top: 20px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 45px;
+    color: #cd483e;
+}
+.Shoyu p{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 25px;
+    color: #cd483e;
+    text-align:justify;
+    font-weight: 200;
+    margin: 3px 70px;
+}
+
+
+.Footer{
+    width:auto;
+    height: 350px;
+    background-color:#E4673D ;
+    padding: 30px;
+    justify-content: center;
+}
+.Follow{   position: relative;
+  padding-left: 15px;
+    overflow: hidden;
+    justify-content: center;
+    padding-top: 35px;
+}
+.Follow h3{
+    float: left;
+    padding-right: 30px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 35px;
+    color:white;
+    
+    justify-content: center;
+}
+.socmed img{ 
+    padding-left: 15px;
+    width:  45px;
+    height: auto;
+    padding-right: 15px;
+    justify-content: center;
+
+}
+
+.Contact{
+    padding-top: 15px;
+}
+.Contact a{ 
+    text-align: right; 
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-family: 'Reem Kufi', sans-serif;
+    position: relative;
+    float:left;
+
+}
